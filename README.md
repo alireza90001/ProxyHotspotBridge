@@ -1,11 +1,11 @@
 # Windows SOCKS5 Proxy Hotspot Bridge 🚀
 
-A lightweight GUI utility script to cleanly route local local proxy servers (like Psiphon, v2rayN, or SSH Tunnels) through a dedicated virtual network card straight to your Windows Mobile Hotspot without breaking your PC's primary internet connection. Perfect for hooking up Xbox, PlayStation, Switch, or smart devices.
+A lightweight GUI utility script to cleanly route local proxy servers (like Psiphon, v2rayN, or SSH Tunnels) through a dedicated virtual network card straight to your Windows Mobile Hotspot without breaking your PC's primary internet connection. Perfect for hooking up Xbox, PlayStation, Switch, or smart devices.
 
 ## ⚙️ Initial One-Time Setup
 
 1. Clone or download this repository to your desktop.
-2. Download `tun2socks.exe` and `wintun.dll` and make sure they are sitting inside the `/bin/` folder.
+2. **Download Core Dependencies:** The core routing engine files (`tun2socks.exe` and `wintun.dll`) are missing by default. Follow the step-by-step download guide located inside the [/bin/ folder README](./bin/README.md) to grab them securely and place them in the correct folder.
 3. Right-click `ProxyHotspotBridge.ps1` and choose **Run with PowerShell**.
 4. Click **Start Tunnel Bridge** once to initialize the adapter profile inside your operating system.
 5. Press `Win + R`, type `ncpa.cpl`, and hit Enter.
